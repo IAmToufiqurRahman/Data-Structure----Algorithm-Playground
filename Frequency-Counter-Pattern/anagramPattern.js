@@ -27,11 +27,10 @@ function validAnagram(firstString, secondString) {
     } else {
       lookup[secondStringLetter] -= 1
     }
-
     console.log(lookup)
   }
 
   return true
 }
 
-console.log(validAnagram('aaa', 'aa1'))
+console.log(validAnagram('ankan', 'kanna'))
