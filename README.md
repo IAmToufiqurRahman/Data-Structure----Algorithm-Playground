@@ -12,4 +12,4 @@ Creating pointers or values that correspond to an index or position and move tow
 
 ### Sliding Window Pattern
 
-This pattern involves creating a window which can either be an array or number from one position to another. Depending on a certain condition, the window either increases or closes(and a new window is created).
+This pattern involves creating a window which can either be an array or number from one position to another. Depending on a certain condition, the window either increases or closes(and a new window is created). This pattern is useful when we have a set of data like an array or a string and we're looking for a subset of that data that is continuous. 
