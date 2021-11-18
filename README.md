@@ -14,6 +14,8 @@ Creating pointers or values that correspond to an index or position and move tow
 
 This pattern involves creating a window which can either be an array or number from one position to another. Depending on a certain condition, the window either increases or closes(and a new window is created). This pattern is useful when we have a set of data like an array or a string and we're looking for a subset of that data that is continuous.
 
+The Sliding Window approach is useful when you have a set of data (like a string or array) and you are looking for a continuous subset of the data. We create a window (which can be a subarray or substring) and move the window depending on a condition.
+
 ### Divide and Conquer Pattern
 
 This pattern involves dividing a data set into smaller chunks and repeating a process with a subset of data. Sorting algorihm like Quick sort and Merge sort uses this pattern so as Binary search.
