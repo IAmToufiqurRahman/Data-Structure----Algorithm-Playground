@@ -19,3 +19,7 @@ The Sliding Window approach is useful when you have a set of data (like a string
 ### Divide and Conquer Pattern
 
 This pattern involves dividing a data set into smaller chunks and repeating a process with a subset of data. Sorting algorihm like Quick sort and Merge sort uses this pattern so as Binary search.
+
+### Recursion
+
+A recursive function is a function that invokes itself. Recursive function should have two main features: a base case and be invokes with different input each time. A different design pattern of recursive funtion can be implemented with the help of helper function.
