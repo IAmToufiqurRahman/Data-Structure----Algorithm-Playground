@@ -3,17 +3,17 @@
 // Solve using divide and conquer pattern with time complexity of O(log(N))
 
 function search(arr, value) {
-  let min = 0
-  let max = arr.length - 1
+  let left = 0
+  let right = arr.length - 1
 
-  while (min <= max) {
-    let middle = Math.floor((min + max) / 2)
+  while (left <= right) {
+    let middle = Math.floor((left + right) / 2)
     let currentElement = arr[middle]
 
     if (currentElement < value) {
-      min = middle + 1
+      left = middle + 1
     } else if (currentElement > value) {
-      max = middle - 1
+      right = middle - 1
     } else {
       return middle
     }
@@ -22,4 +22,4 @@ function search(arr, value) {
   return -1
 }
 
-console.log(search([1, 2, 3, 4, 5, 6, 7, 8, 9], 2))
+console.log(search([1, 2, 3, 4, 5, 6, 7, 8, 9], 8)) // 7
