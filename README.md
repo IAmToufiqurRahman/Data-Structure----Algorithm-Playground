@@ -23,3 +23,7 @@ This pattern involves dividing a data set into smaller chunks and repeating a pr
 ### Recursion
 
 A recursive function is a function that invokes itself. Recursive function should have two main features: a base case and be invokes with different input each time. A different design pattern of recursive funtion can be implemented with the help of helper function.
+
+### Sorting algorithms
+
+Implemented six sorting algorithms such as bubble sort, selection sort, insertion sort, merge sort, quick sort and redix sort. Except redix sort all the sorting algorithms are comparison based sorting. Among them merge sort and quick sort have better time complexity. My personal favourite among sorting algorithms is merge sort because of its simple implementation by divide and conquer technique and its efficiency is also higher than others.
