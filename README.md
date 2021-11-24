@@ -35,3 +35,14 @@ Implemented push, pop, shift, unshift, get, set, insert, remove, reverse operati
 ### Doubly Linked List
 
 Implemented push, pop, shift, unshift, get, set, insert, remove operation in doubly linked list.
+
+### Stack & Queue
+
+Stack works in LIFO principle and Queue works in FIFO. Implemented push and pop for stack and enqueue, dequeue method for queue
+
+### Binary Search Tree
+
+Implemented binary search tree algorithm with two method such as insert and find 
+
+### Tree Traversal
+
