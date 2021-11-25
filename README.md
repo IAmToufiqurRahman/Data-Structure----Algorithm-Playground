@@ -42,7 +42,12 @@ Stack works in LIFO principle and Queue works in FIFO. Implemented push and pop 
 
 ### Binary Search Tree
 
-Implemented binary search tree algorithm with two method such as insert and find 
+Implemented binary search tree algorithm with two method such as insert and find
 
 ### Tree Traversal
 
+Implemented Breadth first search and depth first search(preorder, postorder, inorder)
+
+### Binary Heap
+
+Binary heap has two main categories max heap and min heap. Implemented max heap and then priority queue.
